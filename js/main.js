@@ -16,7 +16,7 @@ searchInputEl.addEventListener("blur", function(){
 // BADGE
 const badgeEl = document.querySelector("header .badges");
 const toTopEl = document.querySelector("#to-top");
-
+ 
 window.addEventListener("scroll", _.throttle(
   function(){
     console.log(window.scrollY);
@@ -34,7 +34,7 @@ window.addEventListener("scroll", _.throttle(
         display:"block"
       });
 
-      gsap.to(toTopEl, .2, {
+      gsap.to(toTopEl, .2, { 
         x: 100
       });
     }

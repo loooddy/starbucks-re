@@ -16,7 +16,7 @@ img{
 .inner{
   width: 1100px;
   margin: 0 auto;
-  position: relative;
+  position: relative; 
 }
 .btn{
   width: 130px;
