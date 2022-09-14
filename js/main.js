@@ -119,7 +119,7 @@ function floatingObject(selector, delay, size){
   gsap.to(selector, random(1.5, 2.5), {
     y: size,
     repeat: -1,
-    yoyo: true,
+    yoyo: true, 
     ease: Power1.easeInOut,
     delay: random(0, delay)
   });

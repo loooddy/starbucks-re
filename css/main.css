@@ -1212,7 +1212,7 @@ footer .logo{
     margin-left: calc(130px / -2);
   }
   .rewards .inner{
-    height: 150px;
+    height: 150px; 
     min-height: 150px;
     background-image: none;
     border-top: 1px solid #333;
